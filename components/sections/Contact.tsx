@@ -1,8 +1,8 @@
 export default function Contact() {
   const contactInfo = [
-    { icon: "📧", label: "Email", value: "vikash@example.com" },
-    { icon: "📱", label: "Phone", value: "+1 (555) 123-4567" },
-    { icon: "📍", label: "Location", value: "New Delhi, India" },
+    { icon: "📧", label: "Email", value: "vk6484412@gmail.com" },
+    { icon: "📱", label: "Phone", value: "+91 62014 48872" },
+    { icon: "📍", label: "Location", value: "Patna, India" },
   ];
 
   return (
