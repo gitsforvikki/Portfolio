@@ -12,7 +12,7 @@ export default function About() {
         <div className="space-y-8">
           <div className="text-center fade-in">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white mb-4">
-              About <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Me</span>
+              About <span className="custom-text-gradient">Me</span>
             </h2>
             <p className="text-slate-600 dark:text-slate-400 text-lg">
               Get to know more about who I am and what drives me
@@ -34,16 +34,16 @@ export default function About() {
             <div className="space-y-6 fade-in-delay-1">
               <div className="space-y-4">
                 <p className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-                  I'm a passionate full-stack developer with expertise in the MERN
-                  stack (MongoDB, Express, React, Node.js). I love creating
+                  I'm a passionate full-stack developer with expertise in the
+                  MERN stack (MongoDB, Express, React, Node.js). I love creating
                   interactive web applications that solve real-world problems.
                 </p>
 
                 <p className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-                  With experience in both frontend and backend development, I can
-                  take your project from conception to deployment. I'm committed to
-                  writing clean, maintainable code and staying updated with the
-                  latest technologies.
+                  With experience in both frontend and backend development, I
+                  can take your project from conception to deployment. I'm
+                  committed to writing clean, maintainable code and staying
+                  updated with the latest technologies.
                 </p>
               </div>
 
@@ -61,7 +61,9 @@ export default function About() {
                         opacity: 0,
                       }}
                     >
-                      <span className="text-3xl flex-shrink-0">{passion.icon}</span>
+                      <span className="text-3xl flex-shrink-0">
+                        {passion.icon}
+                      </span>
                       <span className="text-slate-700 dark:text-slate-300 font-medium">
                         {passion.text}
                       </span>

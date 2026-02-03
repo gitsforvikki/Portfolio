@@ -28,7 +28,8 @@ export default function Skills() {
         <div className="space-y-12">
           <div className="text-center fade-in">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white mb-4">
-              Skills & <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Technologies</span>
+              Skills &{" "}
+              <span className="custom-text-gradient">Technologies</span>
             </h2>
             <p className="text-slate-600 dark:text-slate-400 text-lg">
               Technologies and tools I work with

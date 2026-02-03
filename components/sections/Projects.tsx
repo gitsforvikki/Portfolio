@@ -35,12 +35,15 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="min-h-screen flex items-center py-20 px-4">
+    <section
+      id="projects"
+      className="min-h-screen flex items-center py-20 px-4"
+    >
       <div className="max-w-6xl mx-auto w-full">
         <div className="space-y-12">
           <div className="text-center fade-in">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white mb-4">
-              Featured <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Projects</span>
+              Featured <span className="custom-text-gradient">Projects</span>
             </h2>
             <p className="text-slate-600 dark:text-slate-400 text-lg">
               Check out some of my recent work and projects
@@ -86,7 +89,9 @@ export default function Projects() {
                     className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-bold hover:gap-3 transition-all duration-300 group/link pt-2"
                   >
                     View Project
-                    <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                    <span className="group-hover/link:translate-x-1 transition-transform">
+                      →
+                    </span>
                   </a>
                 </div>
               </div>

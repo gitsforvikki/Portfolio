@@ -30,13 +30,16 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="min-h-screen flex items-center py-20 px-4">
+    <section
+      id="experience"
+      className="min-h-screen flex items-center py-20 px-4"
+    >
       <div className="max-w-4xl mx-auto w-full">
         <div className="space-y-12">
           {/* Section Header */}
           <div className="text-center fade-in">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white mb-4">
-              Work <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Experience</span>
+              Work <span className="custom-text-gradient">Experience</span>
             </h2>
             <p className="text-slate-600 dark:text-slate-400 text-lg">
               My professional journey and roles I've held
@@ -62,7 +65,9 @@ export default function Experience() {
                     opacity: 0,
                   }}
                 >
-                  <div className={`flex gap-4 md:gap-0 md:items-center ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}>
+                  <div
+                    className={`flex gap-4 md:gap-0 md:items-center ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
+                  >
                     {/* Desktop Content */}
                     <div className="hidden md:block md:w-1/2 md:px-8">
                       <div
@@ -98,7 +103,8 @@ export default function Experience() {
                     {/* Timeline Dot */}
                     <div className="flex justify-center md:w-auto">
                       <div className="relative z-10">
-                        <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center text-white text-3xl shadow-lg ring-4 ring-white dark:ring-slate-950 transform hover:scale-110 transition-transform duration-300 animate-bounce"
+                        <div
+                          className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center text-white text-3xl shadow-lg ring-4 ring-white dark:ring-slate-950 transform hover:scale-110 transition-transform duration-300 animate-bounce"
                           style={{
                             animation: `popIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ${0.2 + index * 0.15}s forwards`,
                             opacity: 0,

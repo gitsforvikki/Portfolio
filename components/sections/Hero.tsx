@@ -11,9 +11,12 @@ export default function Hero() {
   ];
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center px-4 py-20 md:py-0 overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center px-4 py-20 md:py-0 overflow-hidden"
+    >
       {/* Side Icons - Right */}
-      <div className="hidden lg:flex fixed right-8 top-1/2 -translate-y-1/2 flex-col gap-6 z-10">
+      {/* <div className="hidden lg:flex fixed right-8 top-1/2 -translate-y-1/2 flex-col gap-6 z-10">
         {skillIcons.map((skill, index) => (
           <div
             key={index}
@@ -25,7 +28,7 @@ export default function Hero() {
             </span>
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="max-w-3xl mx-auto w-full">
@@ -46,7 +49,7 @@ export default function Hero() {
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white leading-tight">
               <span className="fade-in">Hi, I'm</span>{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent inline-block typing-text">
+              <span className="custom-text-gradient inline-block typing-text">
                 Vikash Kumar
               </span>
             </h1>
@@ -59,7 +62,11 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed fade-in-delay-3">
-            I build beautiful, responsive web applications using the MERN stack. Passionate about clean code, user experience, and creating sustainable solutions with scalable technical systems. 🚀
+            A Full-Stack Developer who builds scalable, high-performance web
+            applications with clean code, thoughtful architecture, and great
+            user experience.
+            <br />I specialize in modern JavaScript, React, Next.js, Node.js,
+            and building end-to-end products from idea to production. 🚀
           </p>
 
           {/* CTA Buttons */}
@@ -84,7 +91,17 @@ export default function Hero() {
               Tech Stack
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {["React", "Node.js", "MongoDB", "Express", "JavaScript", "TypeScript", "Tailwind CSS"].map((tech, idx) => (
+              {[
+                "React",
+                "Node.js",
+                "Next.js",
+                "MongoDB",
+                "postgreSQL",
+                "Express",
+                "JavaScript",
+                "TypeScript",
+                "Tailwind CSS",
+              ].map((tech, idx) => (
                 <span
                   key={idx}
                   className="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full font-medium text-sm border border-blue-200 dark:border-blue-800 transform hover:scale-110 hover:shadow-lg transition-all duration-300"
@@ -102,7 +119,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce fade-in-delay-4">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 animate-bounce fade-in-delay-4">
         <svg
           className="w-6 h-6 text-slate-400 dark:text-slate-500"
           fill="none"
