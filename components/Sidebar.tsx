@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import ThemeToggle from "./theme/ThemeToggler";
+import Link from "next/link";
+// import resume from "@/public/assets/vikas.pdf";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +81,7 @@ export default function Sidebar() {
                     Email
                   </p>
                   <p className="text-slate-200 truncate text-xs">
-                    vikash@example.com
+                    vk6484412@gmail.com
                   </p>
                 </div>
               </div>
@@ -91,7 +93,7 @@ export default function Sidebar() {
                   <p className="text-slate-400 text-xs uppercase tracking-wide">
                     Location
                   </p>
-                  <p className="text-slate-200 text-xs">New Delhi, India</p>
+                  <p className="text-slate-200 text-xs">Patna, India</p>
                 </div>
               </div>
 
@@ -102,19 +104,23 @@ export default function Sidebar() {
                   <p className="text-slate-400 text-xs uppercase tracking-wide">
                     Birthday
                   </p>
-                  <p className="text-slate-200 text-xs">May 15, 1998</p>
+                  <p className="text-slate-200 text-xs">Dec 31, 1999</p>
                 </div>
               </div>
             </div>
 
             {/* Action Buttons */}
             <div className="mt-6 flex gap-3">
-              <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition-colors text-sm">
+              <a
+                href="/assets/Vikash_kumar_resume.pdf"
+                download
+                className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold py-2 rounded-lg transition-colors text-sm"
+              >
                 Download CV
-              </button>
-              <button className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-semibold py-2 rounded-lg transition-colors text-sm">
+              </a>
+              {/* <button className="flex-1 bg-slate-700 hover:bg-slate-600 text-white font-semibold py-2 rounded-lg transition-colors text-sm">
                 Cover Letter
-              </button>
+              </button> */}
             </div>
           </div>
 
