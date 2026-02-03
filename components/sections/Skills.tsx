@@ -3,17 +3,31 @@ export default function Skills() {
     {
       icon: "⚛️",
       category: "Frontend",
-      skills: ["React", "JavaScript/TypeScript", "Tailwind CSS", "Next.js"],
+      skills: [
+        "Next.js",
+        "React.js",
+        "JavaScript/TypeScript",
+        "Tailwind CSS",
+        "HTML5",
+        "CSS3",
+      ],
     },
     {
       icon: "🟢",
       category: "Backend",
-      skills: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
+      skills: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST APIs",
+        "PostgreSQL",
+        "NestJS -> Learning",
+      ],
     },
     {
       icon: "🛠️",
       category: "Tools & Platforms",
-      skills: ["Git", "Docker", "Postman", "Vercel", "AWS"],
+      skills: ["Git", "Docker", "Postman", "Vercel"],
     },
     {
       icon: "🎯",
