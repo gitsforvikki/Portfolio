@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   const projects = [
     {
@@ -14,6 +16,7 @@ export default function Projects() {
         "Redux-toolkit",
       ],
       link: "https://codebuddydev.vercel.app/",
+      github: "https://github.com/gitsforvikki/codeBuddy-web",
     },
     {
       icon: "🛍️",
@@ -22,6 +25,7 @@ export default function Projects() {
         "A production-grade e-commerce platform built with modern full-stack technologies, offering seamless shopping experiences, secure payments, and optimized performance.",
       tech: ["Next.js", "MongoDB", "Razorpay", "Tailwind CSS", "Zustand"],
       link: "https://shophub-online.vercel.app/",
+      github: "https://github.com/gitsforvikki/e-commerce-app",
     },
     {
       icon: "🌤️",
@@ -30,6 +34,7 @@ export default function Projects() {
         "Interactive weather application with location search, detailed forecasts, and historical weather data.",
       tech: ["React", "REST API", "Tailwind CSS"],
       link: "#",
+      github: "",
     },
   ];
 
@@ -82,16 +87,22 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-
-                  <a
-                    href={project.link}
-                    className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-bold hover:gap-3 transition-all duration-300 group/link pt-2"
-                  >
-                    View Project
-                    <span className="group-hover/link:translate-x-1 transition-transform">
-                      →
-                    </span>
-                  </a>
+                  <div className="flex gap-x-3">
+                    <Link
+                      target="_blank"
+                      href={project.link}
+                      className="px-5 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-3xl font-bold hover:shadow-xl hover:scale-105 transition-all duration-300 text-center transform hover:-translate-y-1"
+                    >
+                      View Project
+                    </Link>
+                    <Link
+                      href={project.github}
+                      target="_blank"
+                      className="px-5 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-3xl font-bold hover:shadow-xl hover:scale-105 transition-all duration-300 text-center transform hover:-translate-y-1"
+                    >
+                      Github
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

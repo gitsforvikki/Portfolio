@@ -55,7 +55,7 @@ export default function Hero() {
             </h1>
 
             <h2 className="text-2xl md:text-3xl font-bold text-blue-600 dark:text-blue-400 flex items-center justify-center gap-2 fade-in-delay-2">
-              <span>Passionate Software Developer</span>
+              <span>Passionate Full Stack Developer</span>
               <span className="animate-wave">🔥</span>
             </h2>
           </div>
