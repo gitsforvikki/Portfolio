@@ -1,28 +1,27 @@
 export default function Projects() {
   const projects = [
     {
-      icon: "🛒",
-      title: "E-Commerce Platform",
+      icon: "🤝",
+      title: "CodeBuddy – Real-Time Developer Collaboration Hub",
       description:
-        "A full-featured e-commerce platform built with MERN stack featuring product catalog, shopping cart, and secure payment integration.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "#",
+        "An advanced social networking platform for developers featuring real-time messaging, connection workflows, premium subscription system, and scalable backend architecture.",
+      tech: [
+        "React.js",
+        "Node js",
+        "WebSockets",
+        "MongoDB",
+        "Razorpay",
+        "Redux-toolkit",
+      ],
+      link: "https://codebuddydev.vercel.app/",
     },
     {
-      icon: "✅",
-      title: "Task Management App",
+      icon: "🛍️",
+      title: "ShopHub – Scalable E-Commerce Ecosystem",
       description:
-        "Real-time task management application with user authentication, drag-and-drop functionality, and collaborative features.",
-      tech: ["React", "Express", "MongoDB", "Socket.io"],
-      link: "#",
-    },
-    {
-      icon: "📊",
-      title: "Social Media Dashboard",
-      description:
-        "Analytics dashboard for social media with real-time notifications, user profiles, and engagement metrics.",
-      tech: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-      link: "#",
+        "A production-grade e-commerce platform built with modern full-stack technologies, offering seamless shopping experiences, secure payments, and optimized performance.",
+      tech: ["Next.js", "MongoDB", "Razorpay", "Tailwind CSS", "Zustand"],
+      link: "https://shophub-online.vercel.app/",
     },
     {
       icon: "🌤️",
