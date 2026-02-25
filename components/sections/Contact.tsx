@@ -21,7 +21,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <form className="bg-white dark:bg-slate-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 space-y-6 fade-in-delay-1">
+          {/* <form className="bg-white dark:bg-slate-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 space-y-6 fade-in-delay-1">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="block text-slate-900 dark:text-white font-semibold">
@@ -74,7 +74,7 @@ export default function Contact() {
             >
               Send Message 🚀
             </button>
-          </form>
+          </form> */}
 
           {/* Contact Info Cards */}
           <div className="grid sm:grid-cols-3 gap-6">

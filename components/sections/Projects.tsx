@@ -27,15 +27,15 @@ export default function Projects() {
       link: "https://shophub-online.vercel.app/",
       github: "https://github.com/gitsforvikki/e-commerce-app",
     },
-    {
-      icon: "🌤️",
-      title: "Weather Forecast App",
-      description:
-        "Interactive weather application with location search, detailed forecasts, and historical weather data.",
-      tech: ["React", "REST API", "Tailwind CSS"],
-      link: "#",
-      github: "",
-    },
+    // {
+    //   icon: "🌤️",
+    //   title: "Weather Forecast App",
+    //   description:
+    //     "Interactive weather application with location search, detailed forecasts, and historical weather data.",
+    //   tech: ["React", "REST API", "Tailwind CSS"],
+    //   link: "#",
+    //   github: "",
+    // },
   ];
 
   return (
